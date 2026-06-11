@@ -1,0 +1,21 @@
+{
+    "name": "velrim/velrim",
+    "description": "Official Velrim PHP SDK — schema-first document extraction API. Launching soon.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["velrim", "document-extraction", "ocr", "api", "sdk"],
+    "homepage": "https://velrim.com",
+    "support": {
+        "email": "hello@velrim.com",
+        "issues": "https://github.com/velrimhq/velrim-php/issues"
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Velrim\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
